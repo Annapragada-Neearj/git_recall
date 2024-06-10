@@ -1,0 +1,5 @@
+In the Traditional software development model, Developers would write the code, create unit tests, and send it to the QA team. The QA’s would look for defects, flag them and approach the devs for correction. Once the changes had been made, the QA’s would re-run the tests and send the code over to the Ops team if everything was successful. Ops teams would thus have to release code in bits and pieces and be fully dependent on Devs and QA’s to be able to push the code. In case of any system failure, each team would blame the others since they were working in silos. 
+
+DevOps helps you overcome this.
+
+The first and most important terminology that comes up when discussing DevOps is the DevOps pipeline. This article will delve into details about what is pipeline DevOps is and how it can be built.
