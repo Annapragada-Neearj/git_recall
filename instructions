@@ -1,4 +1,7 @@
 Memory address registers(MAR) : It is connected to the address lines of the system bus. It specifies the address in memory for a read or write operation.
 Memory Buffer Register(MBR) : It is connected to the data lines of the system bus. It contains the value to be stored in memory or the last value read from the memory.
 Program Counter(PC) : Holds the address of the next instruction to be fetched.
-Instruction Register(IR) : Holds the last instruction fetched.
+
+
+Instruction Register(IR) : Holds the last instruction fetched and done.
+
