@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+    stages {
+
+        stage ("hello") {
+            steps{
+                echo "Hello, welcome to Jenkins."
+            }
+        }
+
+stage ("build") {
+            steps{
+                echo "Hello, this is our first build."
+            }
+        }
+
+stage ("deploy") {
+            steps{
+                echo "Hello, this is our first deploy."
+            }
+        }
+
+
+    }
+}
